@@ -1,0 +1,72 @@
+.container {
+	text-align: center;
+	padding:2rem;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.subtitle {
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	/* gap: 1.5rem; */
+	flex-wrap: wrap;
+
+}
+.card {
+	background-color: var(--dark-color);
+	border-radius: 0.7rem;
+	padding: 1.5rem;
+	width: 300px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+	text-align: left;
+  	cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px var(--tw-box-shadow);
+}
+.icon {
+	font-size: 2rem;
+	color: var(--text-colors);
+	margin-bottom: 1rem;
+}
+
+.card h2 {
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+}
+
+.card p {
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.card ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.card ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.75rem;
+}
+
+.card ul li::before {
+	content: "\2713";
+	color: var(--text-colors);
+	font-weight: 700;
+	margin-right: 0.5rem;
+}

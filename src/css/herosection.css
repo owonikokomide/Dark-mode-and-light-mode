@@ -1,0 +1,125 @@
+.Herosection {
+	padding: 50px 1rem;
+	text-align: center;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	transition: background-color 0.3s, color 0.3s;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	gap: 20px;
+}
+
+.Herosection .trust {
+	display: flex;
+	background: #CCFFCC;
+	color: #01befe;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-size: 0.75rem;
+	align-items: center;
+	width: fit-content;
+	font-weight: 600;
+}
+.Herosection .trust svg {
+	margin-right: 0.75rem;
+	font-weight: 700;
+	font-size: large;
+}
+.word {
+	text-align: left;
+	padding-left: 1rem;
+}
+.word h1 {
+	line-height: 51px;
+	font-size: 3rem;
+	margin: 20px 0;
+	padding-right: 20px;
+}
+.Herosection .herobtn {
+	padding: 10px 10px;
+	border-radius: 32px;
+	background-color: #b3d826;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition: 400ms ease-in-out;
+	font-size: 1em;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+.Herosection .herobtn svg {
+	margin-left: 1rem;
+}
+.Herosection .box {
+	box-shadow: var(--tw-box-shadow);
+	border-radius: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	padding: 20px;
+	width: 80%;
+	background-color: white;
+	margin: auto;
+}
+.Herosection .box .item {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	background-color: white;
+	transition: 400ms ease-in-out;
+	padding: 5px 0;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgb(0 0 0 / 0.1);
+	cursor: pointer;
+	width: 100%;
+}
+.Herosection .box .item svg {
+	font-size: 1.5rem;
+	color: black;
+	padding: 10px;
+	border-radius: 1rem;
+	background: rgb(237 233 254);
+	margin-left: 1rem;
+}
+.Herosection .box .item:hover {
+	box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgb(0 0 0 / 0.25);
+	transform: scale(1.01);
+}
+.Herosection .box .item .text {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding-top: 1rem;
+}
+.Herosection .box .item .text h4 {
+	align-self: flex-start;
+	color: black;
+}
+.Herosection .box .item .text P {
+	align-self: flex-start;
+	color: rgb(151, 148, 148);
+}
+@media (max-width: 768px) {
+	.Herosection {
+		grid-template-columns: 1fr;
+		padding: 1rem;
+	}
+	.word {
+		text-align: center;
+		padding-left: 0rem;
+	}
+	.Herosection .trust {
+		margin: auto;
+	}
+	.word h1 {
+		line-height: 38px;
+		font-size: 2rem;
+	}
+	.Herosection .herobtn {
+		justify-content: center;
+		margin: auto;
+	}
+}
