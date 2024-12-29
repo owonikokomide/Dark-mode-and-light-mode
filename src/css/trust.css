@@ -20,12 +20,13 @@
 	/* gap: 1.5rem; */
 	flex-wrap: wrap;
     margin-bottom: 1rem;
+	
 }
 .card {
 	background-color: var(--dark-color);
 	border-radius: 0.7rem;
 	padding: 2rem;
-	width: 300px;
+	width: 28%;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 	text-align: left;
   	cursor: pointer;
