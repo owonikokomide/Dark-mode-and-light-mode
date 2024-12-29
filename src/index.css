@@ -19,7 +19,7 @@ body.dark-mode {
 	--secondary-color: rgb(203 213 225);
 	--tw-box-shadow:  0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgb(255 255 255 / 0.25);
 	--dark-color: #1e1e2f;
-	--background: linear-gradient(to right, black 10%, #191970 90%);
+	--background: linear-gradient(135deg, black 20%, #00008B 70%);
 
 }
 
