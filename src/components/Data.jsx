@@ -6,7 +6,7 @@ function Data() {
         <div className="data">
 				<div className="dataset">
 					<h4>500+</h4>
-					<p>Founding Members</p>
+					<p>Founding Members</p> 
 				</div>
 				<div className="dataset">
 					<h4>50+</h4>
