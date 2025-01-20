@@ -6,7 +6,7 @@ import Modal from "./Modal";
 const Header = () => {
 	const [showModal, setShowModal] = useState(false);
 
-	const toggleModal = () => {
+	const toggleModal = () => { 
 		setShowModal((prev) => {
 			if (!prev) {
 				document.body.classList.add("no-scroll");
