@@ -5,7 +5,7 @@ const Trust = () => {
 		<div className="container">
 			<h1 className="title">Everything You Need to Build Trust</h1>
 			<p className="subtitle">
-				We&apos;ve reimagined how freelancers build and maintain client
+				We&apos;ve reimagined how freelancers build and maintain client 
 				relationships.
 			</p>
 
