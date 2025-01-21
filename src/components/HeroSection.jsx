@@ -4,7 +4,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import { LuUsers } from "react-icons/lu";
 import { FiBarChart } from "react-icons/fi";
 import { CiCalendar } from "react-icons/ci";
-import { FaRegMessage } from "react-icons/fa6";
+import { FaRegMessage } from "react-icons/fa6"; 
 import { useState } from "react";
 import Modal from "./Modal";
 
