@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import Swal from "sweetalert2";
 
-const Modal = ({ isVisible, onClose }) => {
+const Modal = ({ isVisible, onClose }) => { 
 	const [formData, setFormData] = useState({
 		firstname: "",
 		lastname: "",
