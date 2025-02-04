@@ -8,7 +8,7 @@ import { FaRegMessage } from "react-icons/fa6";
 import { useState } from "react";
 import Modal from "./Modal";
 
-const HeroSection = () => {
+const HeroSection = () => { 
 	const [showModal, setShowModal] = useState(false);
 
 	const toggleModal = () => {
