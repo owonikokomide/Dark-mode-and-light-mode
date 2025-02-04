@@ -2,7 +2,7 @@ import React from 'react'
 
 function Data() {
   return (
-    <div>
+    <div> 
         <div className="data">
 				<div className="dataset">
 					<h4>500+</h4>
