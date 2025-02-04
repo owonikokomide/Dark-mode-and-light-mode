@@ -4,7 +4,7 @@ const Last = () => {
   return (
 		<div className="Last">
 			<h1>Join the Future of Freelancing</h1>
-			<p>
+			<p> 
 				Be one of the 50 founding members who will shape the future of
 				professional relationships.
 			</p>
