@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
 const Header = () => {
 	const [showModal, setShowModal] = useState(false);
-
+ 
 	const toggleModal = () => { 
 		setShowModal((prev) => {
 			if (!prev) {
