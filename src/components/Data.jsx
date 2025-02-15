@@ -8,7 +8,7 @@ function Data() {
 					<h4>500+</h4>
 					<p>Founding Members</p> 
 				</div>
-				<div className="dataset">
+				<div className="dataset"> 
 					<h4>50+</h4>
 					<p>Countries</p>
 				</div>
