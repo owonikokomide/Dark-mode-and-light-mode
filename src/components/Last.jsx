@@ -5,7 +5,7 @@ const Last = () => {
 		<div className="Last">
 			<h1>Join the Future of Freelancing</h1>
 			<p> 
-				Be one of the 50 founding members who will shape the future of
+				Be one of the 50 founding members who will shape the future of 
 				professional relationships.
 			</p>
 			<button className="priority-btn">Get Priority Access</button>
